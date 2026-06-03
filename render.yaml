@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: orientation-pro
+    runtime: php
+    repo: https://github.com/inesmaouel11-gif/orientation-pro
+    branch: main
+    buildCommand: composer install
+    startCommand: php -S 0.0.0.0:10000
+    plan: free
+    region: frankfurt
