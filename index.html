@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Orientation Pro</title>
+</head>
+
+<body>
+
+<h2>🎓 Orientation Pro</h2>
+
+<form action="recommandation.php" method="POST">
+
+    <label>Moyenne :</label><br>
+    <input type="number" step="0.01" name="moyenne" required><br><br>
+
+    <label>Série Bac :</label><br>
+    <select name="serie">
+        <option value="Sciences Expérimentales">Sciences Expérimentales</option>
+        <option value="Mathématiques">Mathématiques</option>
+        <option value="Techniques">Techniques</option>
+    </select><br><br>
+
+    <label>Wilaya :</label><br>
+    <select name="wilaya">
+        <option value="Adrar">Adrar</option>
+        <option value="Chlef">Chlef</option>
+        <option value="Oran">Oran</option>
+    </select><br><br>
+
+    <button type="submit">Voir les recommandations</button>
+
+</form>
+
+</body>
+</html>

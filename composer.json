@@ -1,0 +1,20 @@
+{
+    "name": "orientation-pro/plateforme",
+    "description": "Plateforme d'orientation post-bac pour bacheliers algériens",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "dompdf/dompdf": "^2.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "8.1"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo '✅ Librairies installées avec succès !'"
+        ]
+    }
+}

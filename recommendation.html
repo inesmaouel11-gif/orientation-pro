@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommandation</title>
+</head>
+<body>
+
+<h2>Orientation Pro</h2>
+
+<form action="recommandation.php" method="POST">
+    
+    <label>Moyenne :</label>
+    <input type="number" step="0.01" name="moyenne" required><br><br>
+
+    <label>Série Bac :</label>
+    <select name="serie">
+        <option value="Sciences Expérimentales">Sciences Expérimentales</option>
+        <option value="Mathématiques">Mathématiques</option>
+        <option value="Technique Math">Technique Math</option>
+    </select><br><br>
+
+    <button type="submit">Voir les recommandations</button>
+
+</form>
+
+</body>
+</html>
